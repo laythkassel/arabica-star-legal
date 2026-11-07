@@ -23,7 +23,7 @@
 <ul>
   <li>نجمع اسمك ورقم جوالك وطلباتك لنجهّز طلبك ونؤكد حسابك.</li>
   <li>الموقع: فقط بموافقتك وأثناء استخدام التطبيق، لعرض أقرب فرع. لا نحتفظ به.</li>
-  <li>رمز التحقق يصلك عبر مزوّد رسائل (Twilio). وسؤالك لنجمة يذهب إلى مزوّد ذكاء اصطناعي (Anthropic) بعد موافقتك.</li>
+  <li>رمز التحقق يصلك عبر مزوّد رسائل. وسؤالك لنجمة يذهب إلى مزوّد ذكاء اصطناعي خارجي بعد موافقتك.</li>
   <li>الدفع في الفرع، ولا نجمع بيانات بطاقتك. ولا نبيع بياناتك.</li>
   <li>تستطيع حذف حسابك من داخل التطبيق: حسابي ثم حذف حسابي.</li>
 </ul>
@@ -41,7 +41,7 @@
   <li><strong>النجوم والمكافآت:</strong> رصيد نجومك وحركاته.</li>
   <li><strong>موافقة التسويق:</strong> اختيارية، ونحفظ قيمتها وتاريخها.</li>
   <li><strong>الدفع:</strong> في هذا الإصدار يتم الدفع في الفرع عند الاستلام، ولا يجمع التطبيق أي بيانات بطاقة. وإذا أُضيف الدفع الإلكتروني لاحقًا فسيتم عبر مزوّد دفع مرخّص، ولن نحفظ بيانات بطاقتك.</li>
-  <li><strong>المساعد "نجمة":</strong> للمستخدم المسجّل، نرسل نص سؤالك فقط إلى مزوّد الذكاء الاصطناعي (Anthropic) لتوليد الإجابة، من دون اسمك أو رقمك أو طلباتك، وتُحذف عناوين البريد والأرقام الطويلة من النص قبل إرساله.</li>
+  <li><strong>المساعد "نجمة":</strong> للمستخدم المسجّل، نرسل نص سؤالك فقط إلى مزوّد ذكاء اصطناعي خارجي لتوليد الإجابة، من دون اسمك أو رقمك أو طلباتك، وتُحذف عناوين البريد والأرقام الطويلة من النص قبل إرساله.</li>
   <li><strong>الإدخال الصوتي:</strong> إذا استعملت الميكروفون فإن التعرف على الكلام يتم عبر خدمة نظام جهازك (Google أو Apple)، ولا نحتفظ بالتسجيل.</li>
   <li><strong>بيانات تقنية:</strong> سجلات تشغيل تحتوي طريقة الطلب ومساره ونتيجته ووقته، من دون رقم جوالك أو الرموز أو بيانات الدخول.</li>
 </ul>
@@ -49,9 +49,8 @@
 <h2>3. مع من نشارك بياناتك</h2>
 <ul>
   <li>الفرع الذي يجهّز طلبك.</li>
-  <li>مزوّد الرسائل (Twilio) لإرسال رمز التحقق إلى رقم جوالك.</li>
-  <li>مزوّد الذكاء الاصطناعي (Anthropic) لنص سؤالك للمساعد، كما ورد أعلاه.</li>
-  <li>مزوّد الاستضافة (Hostinger) وموقع الخوادم ألمانيا.</li>
+  <li>مزوّدو خدمات يعملون لصالحنا: إرسال رمز التحقق برسالة، والاستضافة والتخزين.</li>
+  <li>مزوّد ذكاء اصطناعي خارجي لنص سؤالك للمساعد، بعد موافقتك فقط، كما ورد أعلاه.</li>
   <li>نظام إدارة الشركة (ERP) لتسجيل الطلبات والفواتير.</li>
   <li>الجهات الرسمية عند وجود التزام نظامي.</li>
 </ul>
@@ -80,7 +79,7 @@
 <ul>
   <li>We collect your name, mobile number and orders to prepare your order and confirm your account.</li>
   <li>Location: only with your permission and while you use the app, to show the nearest branch. We do not keep it.</li>
-  <li>Your code comes through a messaging provider (Twilio). Your question to Najma goes to an AI provider (Anthropic) after you agree.</li>
+  <li>Your code comes through a messaging provider. Your question to Najma goes to an outside AI provider after you agree.</li>
   <li>You pay at the branch and we collect no card details. We do not sell your data.</li>
   <li>You can delete your account inside the app: Account, then Delete my account.</li>
 </ul>
@@ -98,7 +97,7 @@
   <li><strong>Stars and rewards:</strong> your stars balance and its movements.</li>
   <li><strong>Marketing consent:</strong> optional; we keep its value and date.</li>
   <li><strong>Payment:</strong> in this version you pay at the branch when you collect, and the app collects no card details. If online payment is added later it will go through a licensed payment provider and we will not store your card details.</li>
-  <li><strong>The assistant "Najma":</strong> for signed-in users, only the text of your question is sent to the AI provider (Anthropic) to produce an answer, without your name, number or orders; email addresses and long numbers are removed from the text first.</li>
+  <li><strong>The assistant "Najma":</strong> for signed-in users, only the text of your question is sent to an outside AI provider to produce an answer, without your name, number or orders; email addresses and long numbers are removed from the text first.</li>
   <li><strong>Voice input:</strong> if you use the microphone, speech recognition runs on your device's system service (Google or Apple); we do not keep the recording.</li>
   <li><strong>Technical data:</strong> operation logs with the request type, route, result and time, without your mobile number, codes or credentials.</li>
 </ul>
@@ -106,9 +105,8 @@
 <h2>3. Who we share it with</h2>
 <ul>
   <li>The branch that prepares your order.</li>
-  <li>The messaging provider (Twilio) to send the verification code to your mobile number.</li>
-  <li>The AI provider (Anthropic) for the text of your question to the assistant, as described above.</li>
-  <li>The hosting provider (Hostinger), servers located in Germany.</li>
+  <li>Service providers working for us: sending the verification code by message, and hosting and storage.</li>
+  <li>An outside AI provider for the text of your question to the assistant, only after you agree, as described above.</li>
   <li>Our company ERP system to record orders and invoices.</li>
   <li>Authorities when the law requires.</li>
 </ul>
